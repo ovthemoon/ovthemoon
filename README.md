@@ -19,9 +19,22 @@
 ![React](https://img.shields.io/badge/-React-61DAFB?style=flat-square&logo=react&logoColor=black)
 ![Node.js](https://img.shields.io/badge/-Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
 
-### 클라우드 & 도구
+### 디자인 & 3D 모델링
+![Photoshop](https://img.shields.io/badge/-Photoshop-31A8FF?style=flat-square&logo=adobe-photoshop&logoColor=white)
+![Illustrator](https://img.shields.io/badge/-Illustrator-FF9A00?style=flat-square&logo=adobe-illustrator&logoColor=white)
+![Premiere Pro](https://img.shields.io/badge/-Premiere%20Pro-9999FF?style=flat-square&logo=adobe-premiere-pro&logoColor=white)
+![After Effects](https://img.shields.io/badge/-After%20Effects-9999FF?style=flat-square&logo=adobe-after-effects&logoColor=white)
+![Substance Painter](https://img.shields.io/badge/-Substance%20Painter-D4412F?style=flat-square&logo=substance&logoColor=white)
+![Maya](https://img.shields.io/badge/-Maya-0696D7?style=flat-square&logo=autodesk&logoColor=white)
+![Figma](https://img.shields.io/badge/-Figma-F24E1E?style=flat-square&logo=figma&logoColor=white)
+
+### 클라우드 & 백엔드
 ![AWS](https://img.shields.io/badge/-AWS-232F3E?style=flat-square&logo=amazon-aws&logoColor=white)
 ![Google Cloud](https://img.shields.io/badge/-Google%20Cloud-4285F4?style=flat-square&logo=google-cloud&logoColor=white)
+![Firebase](https://img.shields.io/badge/-Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black)
+![뒤끝(BackEnd)](https://img.shields.io/badge/-뒤끝(BackEnd)-007396?style=flat-square&logoColor=white)
+
+### 개발 도구
 ![Git](https://img.shields.io/badge/-Git-F05032?style=flat-square&logo=git&logoColor=white)
 ![VS Code](https://img.shields.io/badge/-VS%20Code-007ACC?style=flat-square&logo=visual-studio-code&logoColor=white)
 
