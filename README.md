@@ -5,7 +5,7 @@ Unity 게임과 데스크톱 앱, 웹 인터랙티브 콘텐츠, AI가 실제 �
 
 아이디어를 구체적인 이용 흐름으로 정리하고, 클라이언트와 서버 구현부터 테스트, 배포와 운영까지 이어갑니다.
 
-[널뎁스](https://nerdevs.co.kr) / [OpenDesk](https://opendesk.ai.kr) / [블로그](https://cgmoon.tistory.com) / [이메일](mailto:moonchoi@nerdevs.co.kr)
+[포트폴리오](https://seungmoon-choi.opendesk.page) / [널뎁스](https://nerdevs.co.kr) / [OpenDesk](https://opendesk.ai.kr) / [블로그](https://cgmoon.tistory.com) / [이메일](mailto:moonchoi@nerdevs.co.kr)
 
 ## 현재
 
@@ -24,15 +24,15 @@ AI 모델과 외부 도구를 연결해 사용자가 작업을 맡기고 실행 
 
 ### 무림 히어로즈
 
-5명 팀에서 개발 중인 게임입니다. 전투 엔티티와 캐릭터 상태머신, 스킬 실행 구조 개발에 참여했습니다. 애니메이션과 대기, 효과 적용을 Action 단위로 나눠 에디터에서 조합하는 구조와 실제 스킬을 구현했습니다.
+5인 팀(개발 2/기획 1/디자인 2)으로 시작해, 팀 개발이 멈춘 뒤 혼자 이어서 개발하고 있는 무협 RPG입니다. 스킬을 애니메이션, 타격 대기, 데미지, 이펙트 같은 Action의 조합으로 정의하는 전투 구조, VContainer 의존성 주입 전환, 성능 측정과 개선, 게임 데이터 에디터를 맡았습니다.
 
-`Unity` `C#` / 2024.04~현재
+`Unity` `C#` `VContainer` `UniTask` / 2024.03~현재 / 미출시
 
 ### 웹 인터랙티브 콘텐츠
 
-LITTLE OCEAN의 웹 3D 공간과 이야기 진행, 이어그림 LIVE의 교실 실시간 상호작용, 반반의 무대 제어와 관객 가사 화면을 개발했습니다. 이용 흐름과 화면, 서버 상태를 연결하고 모바일 이용과 재접속 상황을 검증했습니다.
+이어그림 LIVE의 교실 실시간 상호작용, 반반의 무대 제어와 관객 가사 화면을 개발했습니다. 이용 흐름과 화면, 서버 상태를 연결하고 모바일 이용과 재접속 상황을 검증했습니다.
 
-`React` `TypeScript` `Three.js` `WebGL` `WebSocket` `Cloudflare`  
+`React` `TypeScript` `WebSocket` `Cloudflare`  
 [널뎁스](https://nerdevs.co.kr) / [반반](https://banban.opendesk.page)
 
 ### Unity Wireless Debug Manager
@@ -47,7 +47,7 @@ Android 기기의 무선 디버깅을 Unity Editor 안에서 관리하는 도구
 
 ### OpenDesk
 
-2026.03~현재 / 자체 제품, 공개 베타
+2026.02~현재 / 1인 개발 / 자체 제품, 2026.08 공개 베타
 
 - Unity/C# 클라이언트, Python AI 실행 계층, FastAPI/PostgreSQL 백엔드의 구조 설계와 핵심 개발
 - 여러 AI 모델, 외부 도구와 MCP 연동
@@ -56,15 +56,16 @@ Android 기기의 무선 디버깅을 Unity Editor 안에서 관리하는 도구
 
 ### 무림 히어로즈
 
-2024.04~현재 / 5명 팀 프로젝트, 개발 중
+2024.03~현재 / 5인 팀으로 시작, 팀 개발 중단 뒤 혼자 이어 개발 / 미출시
 
-- 전투 엔티티와 캐릭터 상태머신, 스킬 실행 구조 개발 참여
-- Action 단위로 조합하는 스킬 구조와 실제 스킬 구현
-- 위 담당 범위는 JSON 정의 방식 도입 이전의 Action 조합 단계
+- 캐릭터 상태머신과 Action 조합형 스킬 실행 구조, Action 40여 종으로 캐릭터 15명의 스킬 정의
+- 스킬 정의를 JSON 텍스트로 옮기고 에셋을 다시 만드는 컴파일러(원본과 차이 0)
+- VContainer 의존성 주입 전환(LifetimeScope 11개), 우편함 가상 스크롤 20 → 59 FPS
+- 게임 데이터 에디터로 캐릭터 1명 검증 기간 7일 → 3일
 
 ### PopPop Word
 
-2025.03~2025.09 / 2명 팀 프로젝트 / Unity, C#, Addressables
+2025.02~2025.09 / 2인 팀 / 2025.09 Google Play 출시(유지보수 종료로 현재 내림) / Unity, C#, Addressables
 
 - 청크와 그리드 기반 시설 배치, 이동과 회전, 점유와 충돌 검사
 - 작물과 나무의 성장, 물주기와 수확, 동물 호감도와 보상
@@ -78,13 +79,6 @@ Unity Editor 개발 도구 / C#, ADB, UPM
 - ADB 경로 탐지, 한국어와 영어 전환
 
 [저장소](https://github.com/ovthemoon/unity-wireless-debug-manager)
-
-### LITTLE OCEAN
-
-2026.09 개발 및 공개 배포 / 자체 웹 3D 체험 / Three.js, WebGL
-
-- 드래그 상호작용과 이야기 진행 상태를 연결하는 3D 공간
-- 공간 조건에 따른 진행, 순서 건너뛰기 방지, 수면 셰이더 구현
 
 ### Anything Arena
 
